@@ -1,0 +1,9 @@
+---
+- name: httpd
+  hosts: localhost
+  tasks:
+  - name: creating the empty file
+    file:
+      path: /home/kp
+      state: touch
+
